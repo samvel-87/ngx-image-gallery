@@ -7,7 +7,7 @@
     "publish": "cd ../dist/ngx-image-gallery && npm publish"
   },
   "dependencies": {
-    "@angular/animations": "^17.3.1",
+    "@angular/animations": "^10.2.5",
     "@angular/common": "~10.2.5",
     "@angular/compiler": "~10.2.5",
     "@angular/core": "~10.2.5",
