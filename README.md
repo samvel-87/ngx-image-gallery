@@ -2,7 +2,7 @@
 ---
 
 # ngx-image-gallery
-Probably the best Angular 4+ modal and inline image gallery. Angular upgrade for ng-image-gallery.
+Probably the best Angular 17 modal and inline image gallery. Angular upgrade for ng-image-gallery.
 
 ![preview](https://i.imgur.com/1gGxBLd.jpg)
 
@@ -41,12 +41,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
 ## Install
 ```bash
-npm install --save @web-aid-kit/ngx-image-gallery
+npm install --save @intelinair/ngx-image-gallery
 ```
 
 ## Import
 ```typescript
-import { NgxImageGalleryModule } from '@web-aid-kit/ngx-image-gallery';
+import { NgxImageGalleryModule } from '@intelinair/ngx-image-gallery';
 
 @NgModule({
   ...,
@@ -77,7 +77,7 @@ export class AppModule { }
 ## Configure
 ```ts
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { NgxImageGalleryComponent, GALLERY_IMAGE, GALLERY_CONF } from '@web-aid-kit/ngx-image-gallery';
+import { NgxImageGalleryComponent, GALLERY_IMAGE, GALLERY_CONF } from '@intelinair/ngx-image-gallery';
 
 @Component({
   selector: 'app-root',
