@@ -6,10 +6,6 @@ Probably the best Angular 17 modal and inline image gallery. Angular upgrade for
 
 ![preview](https://i.imgur.com/1gGxBLd.jpg)
 
-[![npm](https://img.shields.io/npm/dt/ngx-image-gallery.svg?style=flat-square)](https://www.npmjs.com/package/ngx-image-gallery)
-[![npm](https://img.shields.io/npm/v/ngx-image-gallery.svg?style=flat-square)](https://www.npmjs.com/package/ngx-image-gallery)
-[![David](https://img.shields.io/david/thatisuday/ngx-image-gallery.svg?style=flat-square)](https://www.npmjs.com/package/ngx-image-gallery)
-[![preview](https://img.shields.io/badge/preview-click_here-green.svg?style=flat-square)](https://thatisuday.github.io/ngx-image-gallery)
 
 ## Prerequisites
 
