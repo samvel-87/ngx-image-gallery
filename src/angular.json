@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "ngx-image-gallery": {
@@ -30,11 +30,11 @@
           }
         },
         "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
+          "builder": "@angular-eslint/builder:lint",
           "options": {
-            "tsConfig": [
-              "projects/ngx-image-gallery/tsconfig.lib.json",
-              "projects/ngx-image-gallery/tsconfig.spec.json"
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -43,7 +43,6 @@
         }
       }
     }},
-  "defaultProject": "ngx-image-gallery",
   "cli": {
     "analytics": false
   }
