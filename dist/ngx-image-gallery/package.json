@@ -1,5 +1,5 @@
 {
-  "name": "@intelinair/ngx-image-gallery",
+  "name": "@fe-titans/ngx-image-gallery",
   "version": "v1.0.0",
   "dependencies": {
     "tslib": "^2.6.2"
