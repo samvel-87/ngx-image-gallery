@@ -1,6 +1,4 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { NgxImageGalleryComponent } from './components/ngx-image-gallery/ngx-image-gallery.component';
 import { ClickOutsideDirective } from './directives/click-outside.directive';
 import { MouseWheelDirective } from './directives/mousewheel.directive';
 import * as i0 from "@angular/core";
@@ -10,29 +8,22 @@ export * from './directives/mousewheel.directive';
 export * from './ngx-image-gallery.conf';
 export class NgxImageGalleryModule {
     static ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "17.3.1", ngImport: i0, type: NgxImageGalleryModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule });
-    static ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "14.0.0", version: "17.3.1", ngImport: i0, type: NgxImageGalleryModule, declarations: [NgxImageGalleryComponent,
-            MouseWheelDirective,
-            ClickOutsideDirective], imports: [CommonModule], exports: [NgxImageGalleryComponent,
-            MouseWheelDirective,
+    static ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "14.0.0", version: "17.3.1", ngImport: i0, type: NgxImageGalleryModule, declarations: [MouseWheelDirective,
+            ClickOutsideDirective], exports: [MouseWheelDirective,
             ClickOutsideDirective] });
-    static ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "17.3.1", ngImport: i0, type: NgxImageGalleryModule, imports: [CommonModule] });
+    static ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "17.3.1", ngImport: i0, type: NgxImageGalleryModule });
 }
 i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.3.1", ngImport: i0, type: NgxImageGalleryModule, decorators: [{
             type: NgModule,
             args: [{
-                    imports: [
-                        CommonModule
-                    ],
                     declarations: [
-                        NgxImageGalleryComponent,
                         MouseWheelDirective,
                         ClickOutsideDirective
                     ],
                     exports: [
-                        NgxImageGalleryComponent,
                         MouseWheelDirective,
                         ClickOutsideDirective
                     ]
                 }]
         }] });
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi9zcmMvcHJvamVjdHMvbmd4LWltYWdlLWdhbGxlcnkvc3JjL2xpYi9pbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxPQUFPLEVBQUMsUUFBUSxFQUFDLE1BQU0sZUFBZSxDQUFDO0FBQ3ZDLE9BQU8sRUFBQyxZQUFZLEVBQUMsTUFBTSxpQkFBaUIsQ0FBQztBQUU3QyxPQUFPLEVBQUMsd0JBQXdCLEVBQUMsTUFBTSw0REFBNEQsQ0FBQztBQUNwRyxPQUFPLEVBQUMscUJBQXFCLEVBQUMsTUFBTSxzQ0FBc0MsQ0FBQztBQUMzRSxPQUFPLEVBQUMsbUJBQW1CLEVBQUMsTUFBTSxtQ0FBbUMsQ0FBQzs7QUFFdEUsY0FBYyw0REFBNEQsQ0FBQztBQUMzRSxjQUFjLHNDQUFzQyxDQUFDO0FBQ3JELGNBQWMsbUNBQW1DLENBQUM7QUFDbEQsY0FBYywwQkFBMEIsQ0FBQztBQWlCekMsTUFBTSxPQUFPLHFCQUFxQjt1R0FBckIscUJBQXFCO3dHQUFyQixxQkFBcUIsaUJBVjFCLHdCQUF3QjtZQUN4QixtQkFBbUI7WUFDbkIscUJBQXFCLGFBTHJCLFlBQVksYUFRWix3QkFBd0I7WUFDeEIsbUJBQW1CO1lBQ25CLHFCQUFxQjt3R0FHaEIscUJBQXFCLFlBYjFCLFlBQVk7OzJGQWFQLHFCQUFxQjtrQkFmakMsUUFBUTttQkFBQztvQkFDTixPQUFPLEVBQUU7d0JBQ0wsWUFBWTtxQkFDZjtvQkFDRCxZQUFZLEVBQUU7d0JBQ1Ysd0JBQXdCO3dCQUN4QixtQkFBbUI7d0JBQ25CLHFCQUFxQjtxQkFDeEI7b0JBQ0QsT0FBTyxFQUFFO3dCQUNMLHdCQUF3Qjt3QkFDeEIsbUJBQW1CO3dCQUNuQixxQkFBcUI7cUJBQ3hCO2lCQUNKIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtOZ01vZHVsZX0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5pbXBvcnQge0NvbW1vbk1vZHVsZX0gZnJvbSAnQGFuZ3VsYXIvY29tbW9uJztcblxuaW1wb3J0IHtOZ3hJbWFnZUdhbGxlcnlDb21wb25lbnR9IGZyb20gJy4vY29tcG9uZW50cy9uZ3gtaW1hZ2UtZ2FsbGVyeS9uZ3gtaW1hZ2UtZ2FsbGVyeS5jb21wb25lbnQnO1xuaW1wb3J0IHtDbGlja091dHNpZGVEaXJlY3RpdmV9IGZyb20gJy4vZGlyZWN0aXZlcy9jbGljay1vdXRzaWRlLmRpcmVjdGl2ZSc7XG5pbXBvcnQge01vdXNlV2hlZWxEaXJlY3RpdmV9IGZyb20gJy4vZGlyZWN0aXZlcy9tb3VzZXdoZWVsLmRpcmVjdGl2ZSc7XG5cbmV4cG9ydCAqIGZyb20gJy4vY29tcG9uZW50cy9uZ3gtaW1hZ2UtZ2FsbGVyeS9uZ3gtaW1hZ2UtZ2FsbGVyeS5jb21wb25lbnQnO1xuZXhwb3J0ICogZnJvbSAnLi9kaXJlY3RpdmVzL2NsaWNrLW91dHNpZGUuZGlyZWN0aXZlJztcbmV4cG9ydCAqIGZyb20gJy4vZGlyZWN0aXZlcy9tb3VzZXdoZWVsLmRpcmVjdGl2ZSc7XG5leHBvcnQgKiBmcm9tICcuL25neC1pbWFnZS1nYWxsZXJ5LmNvbmYnO1xuXG5ATmdNb2R1bGUoe1xuICAgIGltcG9ydHM6IFtcbiAgICAgICAgQ29tbW9uTW9kdWxlXG4gICAgXSxcbiAgICBkZWNsYXJhdGlvbnM6IFtcbiAgICAgICAgTmd4SW1hZ2VHYWxsZXJ5Q29tcG9uZW50LFxuICAgICAgICBNb3VzZVdoZWVsRGlyZWN0aXZlLFxuICAgICAgICBDbGlja091dHNpZGVEaXJlY3RpdmVcbiAgICBdLFxuICAgIGV4cG9ydHM6IFtcbiAgICAgICAgTmd4SW1hZ2VHYWxsZXJ5Q29tcG9uZW50LFxuICAgICAgICBNb3VzZVdoZWVsRGlyZWN0aXZlLFxuICAgICAgICBDbGlja091dHNpZGVEaXJlY3RpdmVcbiAgICBdXG59KVxuZXhwb3J0IGNsYXNzIE5neEltYWdlR2FsbGVyeU1vZHVsZSB7XG59XG4iXX0=
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi9zcmMvcHJvamVjdHMvbmd4LWltYWdlLWdhbGxlcnkvc3JjL2xpYi9pbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxPQUFPLEVBQUMsUUFBUSxFQUFDLE1BQU0sZUFBZSxDQUFDO0FBQ3ZDLE9BQU8sRUFBQyxxQkFBcUIsRUFBQyxNQUFNLHNDQUFzQyxDQUFDO0FBQzNFLE9BQU8sRUFBQyxtQkFBbUIsRUFBQyxNQUFNLG1DQUFtQyxDQUFDOztBQUV0RSxjQUFjLDREQUE0RCxDQUFDO0FBQzNFLGNBQWMsc0NBQXNDLENBQUM7QUFDckQsY0FBYyxtQ0FBbUMsQ0FBQztBQUNsRCxjQUFjLDBCQUEwQixDQUFDO0FBWXpDLE1BQU0sT0FBTyxxQkFBcUI7dUdBQXJCLHFCQUFxQjt3R0FBckIscUJBQXFCLGlCQVIxQixtQkFBbUI7WUFDbkIscUJBQXFCLGFBR3JCLG1CQUFtQjtZQUNuQixxQkFBcUI7d0dBR2hCLHFCQUFxQjs7MkZBQXJCLHFCQUFxQjtrQkFWakMsUUFBUTttQkFBQztvQkFDTixZQUFZLEVBQUU7d0JBQ1YsbUJBQW1CO3dCQUNuQixxQkFBcUI7cUJBQ3hCO29CQUNELE9BQU8sRUFBRTt3QkFDTCxtQkFBbUI7d0JBQ25CLHFCQUFxQjtxQkFDeEI7aUJBQ0oiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge05nTW9kdWxlfSBmcm9tICdAYW5ndWxhci9jb3JlJztcbmltcG9ydCB7Q2xpY2tPdXRzaWRlRGlyZWN0aXZlfSBmcm9tICcuL2RpcmVjdGl2ZXMvY2xpY2stb3V0c2lkZS5kaXJlY3RpdmUnO1xuaW1wb3J0IHtNb3VzZVdoZWVsRGlyZWN0aXZlfSBmcm9tICcuL2RpcmVjdGl2ZXMvbW91c2V3aGVlbC5kaXJlY3RpdmUnO1xuXG5leHBvcnQgKiBmcm9tICcuL2NvbXBvbmVudHMvbmd4LWltYWdlLWdhbGxlcnkvbmd4LWltYWdlLWdhbGxlcnkuY29tcG9uZW50JztcbmV4cG9ydCAqIGZyb20gJy4vZGlyZWN0aXZlcy9jbGljay1vdXRzaWRlLmRpcmVjdGl2ZSc7XG5leHBvcnQgKiBmcm9tICcuL2RpcmVjdGl2ZXMvbW91c2V3aGVlbC5kaXJlY3RpdmUnO1xuZXhwb3J0ICogZnJvbSAnLi9uZ3gtaW1hZ2UtZ2FsbGVyeS5jb25mJztcblxuQE5nTW9kdWxlKHtcbiAgICBkZWNsYXJhdGlvbnM6IFtcbiAgICAgICAgTW91c2VXaGVlbERpcmVjdGl2ZSxcbiAgICAgICAgQ2xpY2tPdXRzaWRlRGlyZWN0aXZlXG4gICAgXSxcbiAgICBleHBvcnRzOiBbXG4gICAgICAgIE1vdXNlV2hlZWxEaXJlY3RpdmUsXG4gICAgICAgIENsaWNrT3V0c2lkZURpcmVjdGl2ZVxuICAgIF1cbn0pXG5leHBvcnQgY2xhc3MgTmd4SW1hZ2VHYWxsZXJ5TW9kdWxlIHtcbn1cbiJdfQ==

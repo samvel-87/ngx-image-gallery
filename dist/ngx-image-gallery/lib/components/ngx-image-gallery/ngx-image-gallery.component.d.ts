@@ -1,4 +1,4 @@
-import { OnInit, ElementRef, Renderer2, EventEmitter, OnChanges, SimpleChanges, ChangeDetectorRef } from '@angular/core';
+import { ChangeDetectorRef, ElementRef, EventEmitter, OnChanges, OnInit, Renderer2, SimpleChanges } from '@angular/core';
 import { GALLERY_CONF, GALLERY_IMAGE } from '../../ngx-image-gallery.conf';
 import { DomSanitizer } from '@angular/platform-browser';
 import * as i0 from "@angular/core";
@@ -56,5 +56,5 @@ export declare class NgxImageGalleryComponent implements OnInit, OnChanges {
     clickOnImage(index: number): void;
     rightClickOnImage(event: Event): boolean;
     static ɵfac: i0.ɵɵFactoryDeclaration<NgxImageGalleryComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<NgxImageGalleryComponent, "ngx-image-gallery", never, { "conf": { "alias": "conf"; "required": false; }; "images": { "alias": "images"; "required": false; }; }, { "onOpen": "onOpen"; "onClose": "onClose"; "onDelete": "onDelete"; "onImageChange": "onImageChange"; "onImageClicked": "onImageClicked"; "onError": "onError"; }, never, never, false, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<NgxImageGalleryComponent, "ngx-image-gallery", never, { "conf": { "alias": "conf"; "required": false; }; "images": { "alias": "images"; "required": false; }; }, { "onOpen": "onOpen"; "onClose": "onClose"; "onDelete": "onDelete"; "onImageChange": "onImageChange"; "onImageClicked": "onImageClicked"; "onError": "onError"; }, never, never, true, never>;
 }
