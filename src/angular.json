@@ -32,12 +32,9 @@
         "lint": {
           "builder": "@angular-eslint/builder:lint",
           "options": {
-            "lintFilePatterns": [
-              "src/**/*.ts",
-              "src/**/*.html"
-            ],
-            "exclude": [
-              "**/node_modules/**"
+            "tsConfig": [
+              "projects/ngx-image-gallery/tsconfig.lib.json",
+              "projects/ngx-image-gallery/tsconfig.spec.json"
             ]
           }
         }

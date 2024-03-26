@@ -274,13 +274,13 @@ export class NgxImageGalleryComponent implements OnInit, OnChanges {
     @HostListener('window:keydown', ['$event'])
     public onKeyboardInput(event: KeyboardEvent) {
         if (this.conf.reactToKeyboard && this.opened && !this.loading) {
-            if (KEY_CODES[event.keyCode] == 'RIGHT') {
+            if (KEY_CODES[event.code] == 'RIGHT') {
                 this.next();
             }
-            else if (KEY_CODES[event.keyCode] == 'LEFT') {
+            else if (KEY_CODES[event.code] == 'LEFT') {
                 this.prev();
             }
-            else if ((KEY_CODES[event.keyCode] == 'ESC') && this.conf.closeOnEsc) {
+            else if ((KEY_CODES[event.code] == 'ESC') && this.conf.closeOnEsc) {
                 this.close();
             }
         }

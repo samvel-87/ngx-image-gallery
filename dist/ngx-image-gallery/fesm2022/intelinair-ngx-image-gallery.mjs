@@ -380,13 +380,13 @@ class NgxImageGalleryComponent {
     // keyboard event
     onKeyboardInput(event) {
         if (this.conf.reactToKeyboard && this.opened && !this.loading) {
-            if (KEY_CODES[event.keyCode] == 'RIGHT') {
+            if (KEY_CODES[event.code] == 'RIGHT') {
                 this.next();
             }
-            else if (KEY_CODES[event.keyCode] == 'LEFT') {
+            else if (KEY_CODES[event.code] == 'LEFT') {
                 this.prev();
             }
-            else if ((KEY_CODES[event.keyCode] == 'ESC') && this.conf.closeOnEsc) {
+            else if ((KEY_CODES[event.code] == 'ESC') && this.conf.closeOnEsc) {
                 this.close();
             }
         }
@@ -609,4 +609,4 @@ class NgxImageGalleryModule {
  */
 
 export { ClickOutsideDirective, MouseWheelDirective, NgxImageGalleryComponent, NgxImageGalleryModule };
-//# sourceMappingURL=web-aid-kit-ngx-image-gallery.mjs.map
+//# sourceMappingURL=intelinair-ngx-image-gallery.mjs.map
